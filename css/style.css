@@ -1,0 +1,9 @@
+@import url('/fonts/general-sans/css/general-sans.css');
+
+h1{
+    font-family: 'GeneralSans-Bold', sans-serif, Courier, monospace;
+}
+
+body{
+    font-family: 'GeneralSans-Medium', sans-serif;
+}
