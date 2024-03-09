@@ -1,9 +1,21 @@
 @import url('/fonts/general-sans/css/general-sans.css');
-
-h1{
-    font-family: 'GeneralSans-Bold', sans-serif, Courier, monospace;
-}
+@import url('/components/header/header.css');
 
 body{
-    font-family: 'GeneralSans-Medium', sans-serif;
+    font-family: 'GeneralSans-Medium', Verdana;
+    background-color: #00182e;
+    color: #eef8ff;
+    margin-top: -10px;
+    padding: 0 30px;
 }
+
+header {
+   width: 100%;
+}
+
+/* h1{
+    font-family: 'GeneralSans-Bold', Verdana;
+    color: #eef8ff;
+} */
+
+
