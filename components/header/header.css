@@ -22,21 +22,30 @@ nav{
 
 .menu li {
     list-style-type: none;
-    padding: 15px;
+    padding-left: 30px;
+   
 }
 
-.menu li > a {
+.menu .items-active {
     color: #eef8ff;
     text-decoration: none;
-    /* transition-timing-function: ease;
-    transition-duration: 400ms; */
-    /* transition-property: color; */
+    position: relative;  
 }
 
-.menu a:focus{
-    border-bottom: 3px solid #1fcbff;
+/*--------Animacion de las opciones del menu---------*/
+.menu .items-active::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #1fcbff;
+    transition: width 0.3s ease;
 }
 
-.menu a:hover{
-    border-bottom: 3px solid #1fcbff;
+
+.menu .items-active:hover::after,
+.menu .items-active:focus::after {
+    width: 100%;
 }
+
+
